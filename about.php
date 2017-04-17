@@ -3,22 +3,23 @@
 <head>
     <meta charset="utf-8">
     <title>Урок №1</title>
-</head>
-<body>
-<h1>О себе</h1>
-</body>
-</html>
+    <body>
 
 <?php
+error_reporting (E_ALL);
+echo '<h1>';
+echo 'About my self';
+echo '</h1>';
 $name ='Victor';
 $age = '24';
-$email = '<a href="Nazarov.victor92@yandex.ru"> Моя почта </a>';
-$about = 'Инженер' ;
-echo 'Имя:',' ',$name;
-echo '<br/>';
-echo 'Возраст:'   , ' ',  $age;
-echo '<br/>';
-echo  'Адрес электронной почты:', ' ', $email ;
-echo '<br/>';
-echo 'О себе:  ', ' ' ,$about;
+$email = 'Nazarov.victor92@yandex.ru';
+$about = 'engeneer' ;
+echo "<br>" .'Имя:',' ',$name,PHP_EOL . "</br>";
+echo 'Возраст:'   , ' ',  $age,PHP_EOL ;
+echo "<br>". 'Адрес электронноый почты:', $email ,PHP_EOL ."</br>";
+echo 'О себе: ', ' ', $about;
 ?>
+</body>
+</head>
+</html>
+
