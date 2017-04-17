@@ -17,10 +17,10 @@ $three = 0;
 while (true) {
     if ($one > $u) {
         echo "Задуманное число не входит в числовой ряд";
-        exit;
+        break;
     } else if ($one === $u) {
         echo "Задуманное число входит в числовой ряд";
-        exit;
+        break;
     } else {
         $three = $one;
         $one = $one + $two;
